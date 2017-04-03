@@ -1,0 +1,24 @@
+{
+  "name": "ocr-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "./node_modules/.bin/ts-node ./index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "node-tesseract": "^0.2.7",
+    "pdf2json": "^1.1.7",
+    "pdfreader": "^0.2.3"
+  }
+}
